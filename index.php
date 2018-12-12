@@ -34,22 +34,25 @@
         width:150px !important;
     }
     body, html{
-        margin:0;
+        margin: auto;
         padding:0;
-        background:#ffFFFF;
+        background:black;
     }
 
     .form-all{
         margin:0px auto;
         padding-top:0px;
         width:600px;
-        background: #ffffff;
+        background: #000000;
         color:#555 !important;
         font-family:'Lucida Grande',' Lucida Sans Unicode',' Lucida Sans',' Verdana',' Tahoma',' sans-serif';
         font-size:14px;
     }
     .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
         color: #555;
+    }
+    body{
+        background-color: black; 
     }
 
 </style>
@@ -67,7 +70,7 @@
 		<td><font color='#000000' size="5" face="verdana">Batalhão Cidade de Campinas </font><hr width="100%" align="left"></td>
 		</tr>
 		<tr>
-		<td><font color="#EEE9E9" size="4" face="verdana">Sistemas de Apoio ao Cmdo</font></td>
+		<td><font color="#EEE9E9" size="4" face="verdana">Controle de Viaturas</font></td>
 		</tr>
 	</tbody></table>
 	
@@ -106,8 +109,8 @@ if(mNome==11) mes="Novembro";
 if(mNome==12) mes="Dezembro";
 var DiaHoje =(" "+diaNr+" de "+mes+" de "+aNome);
 var DiaHora =(" "+dia+" - "+hora+":"+minuto);
-document.write("<FONT COLOR='#000000' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+"</FONT>");
-// --></script><font color="#000000" face="Arial" size="2"></font></font></p>
+document.write("<FONT COLOR='#fff' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+"</FONT>");
+// --></script><font color="#fff" face="Arial" size="2"></font></font></p>
 		
 
 <hr align="center">
@@ -125,13 +128,13 @@ document.write("<FONT COLOR='#000000' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+
 
 				<br><br><p align="center"><input type="image" src="imagens/login.png" width="120" height="50" value="submit"></p>
 				
-				<p align="center"><font color="#EEE9E9" size="4" face="verdana">O Suor Poupa o Sangue!<br> Ao Braço Firme!</font></p>
+				<!-- <p align="center"><font color="#EEE9E9" size="4" face="verdana"><br> Ao Braço Firme!</font></p> -->
 				
 				
 				</fieldset>
 				
 				
-				<font color='#ffffff' face="verdana" size=1>Melhor Visualizado nos navegadores: Google Chrome, Safari e Firefox. </font>
+				<!--<font color='#ffffff' face="verdana" size=1>Melhor Visualizado nos navegadores: Google Chrome, Safari e Firefox. </font>-->
 			
 		  </div>
         </div>

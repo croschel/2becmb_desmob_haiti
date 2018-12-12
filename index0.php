@@ -35,7 +35,7 @@
 <link rel="alternate" type="" href="" title=""><link rel="" type="" href="" title="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="HandheldFriendly" content="true">
-<title>2° BE Cmb - Desmob Haiti</title>
+<title>2° B Log L - Controle de Vtr</title>
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
@@ -99,7 +99,7 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>#</title>
+	<title>2º B Log L</title>
 	
 
 </style>
@@ -122,15 +122,15 @@ header('Content-Type: text/html; charset=UTF-8');
   
     <table align="center" border="0" width="100%" class="backcolor1">
 		<tbody><tr>
-		<td rowspan="2" width="10%" align="center" height="80"><img src="./imagens/2becmb.png" width="50" height="65"></td>
-		<td colspan="2"><font color='#000000' size="5" face="arial">Batalhão Borba Gato</font><hr width="100%" align="left"></td>
+		<td rowspan="2" width="10%" align="center" height="80"><img src="./imagens/2blogl-logo.png" width="50" height="65"></td>
+		<td colspan="2"><font color='#000000' size="5" face="arial">Batalhão Cidade de Campinas</font><hr width="100%" align="left"></td>
 		</tr>
 		<tr>
 		<td><font color="#EEE9E9" size="4" face="arial">Sistemas de Apoio ao Cmdo</font></td>
 		<td>
 		<p align="right">		
 			
-		<a href="/2becmb_desmob_haiti/session_destroy.php" title="Sair do sistema" > <img src="./imagens/sair.png" width="40" height="40"></a> &nbsp&nbsp
+		<a href="session_destroy.php" title="Sair do sistema" > <img src="./imagens/sair.png" width="40" height="40"></a> &nbsp&nbsp
 		</p>
 		</td>
 		</tr>
@@ -158,15 +158,15 @@ $a = date('Y'); $mm = date('m');?>
 			
 			<tr>
 			<td align="center">
-			<a href="/2becmb_desmob_haiti/index2.php" onClick=""><img src="./imagens/2becmb_b.png" width="90" height="90" title="Controle e Manutenção de Material do Batalhão - Classe VI e IX"></a> &nbsp&nbsp
+			<a href="index2.php" onClick=""><img src="./imagens/2blogl_button.png" width="90" height="90" title="Controle e Manutenção de Material do Batalhão - Classe VI e IX"></a> &nbsp&nbsp
 			</td>
 			
 			
-			<?php if (($nivel_admin > 4)){echo '<td align="center"><a href="/2becmb_desmob_haiti/admin.php" onClick=""><img src="./imagens/index1_a1.png" title="Administração do Sistema" width="90" height="90"></a> &nbsp&nbsp </td>';} ?> 
+			<?php if (($nivel_admin > 4)){echo '<td align="center"><a href="admin.php" onClick=""><img src="./imagens/index1_a1.png" title="Administração do Sistema" width="90" height="90"></a> &nbsp&nbsp </td>';} ?> 
 			
 			
 			<td align="center">
-			<a href="/2becmb_desmob_haiti/altera_senha.php" title="Alterar senha de Usuário" target="_blank"><img src="./imagens/altera_senha.png" width="90" height="90"></a> 
+			<a href="altera_senha.php" title="Alterar senha de Usuário" target="_blank"><img src="./imagens/altera_senha.png" width="90" height="90"></a> 
 			</td>
 			</tr>
 			
