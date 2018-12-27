@@ -65,7 +65,7 @@ date_default_timezone_set('America/Sao_Paulo');
 				
 			$om = $_SESSION['om'];
 			$now = date('Y-m-d H:i:s');
-			$comando = utf8_decode('Alterou o Destino do Material (UPDATE 2becmb_material SET destino='.$destino.' WHERE id LIKE '.$id.')';
+			$comando = utf8_decode('Alterou o Destino do Material (UPDATE 2becmb_material SET destino='.$destino.' WHERE id LIKE '.$id.')');
 			$sql_aud = mysqli_query($link, "INSERT INTO 2becmb_auditoria (id_auditoria, comando, posto_grad, nome_guerra, usuario, om, datahora_comando)VALUES (NULL, '{$comando}', '{$posto_grad}', '{$nome_guerra}', '{$cpf}', '{$om}', '{$now}')");
 			// Gravar na tabela auditoria (FIM)
 					

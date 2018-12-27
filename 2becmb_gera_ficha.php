@@ -29,7 +29,7 @@
 <link rel="alternate" type="" href="" title=""><link rel="" type="" href="" title="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="HandheldFriendly" content="true">
-<title>2° BE Cmb</title>
+<title>2° B Log L</title>
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
@@ -293,7 +293,7 @@ $id_ficha = $_GET['id_ficha'];
 			
 			<tr><td align="left" colspan="6"><font color='#000000' face="arial" size=2><BR><b>Tomei conhecimento das irregularidades encontradas e providenciarei à respeito das mesmas.</b><BR><BR><BR><BR><BR><BR></font></td></tr>
 			
-			<tr><td align="right" colspan="6"><font color='#000000' face="arial" size=2>Pindamonhangaba-SP, ______ de _____________________ de _____________<BR><BR></font><font color='#000000' face="arial" size=1><BR></font></td></tr>
+			<tr><td align="right" colspan="6"><font color='#000000' face="arial" size=2>Campinas-SP, ______ de _____________________ de _____________<BR><BR></font><font color='#000000' face="arial" size=1><BR></font></td></tr>
 			
 			<tr><td align="right" colspan="5" style="border-collapse: collapse; border:solid; border-top:hidden; border-right:hidden;" border="1"><font color='#000000' face="arial" size=2><br>________________________<br>Encarregado da manutenção<br></font></td><td align="right" colspan="1" style="border-collapse: collapse; border:solid; border-top:hidden; border-left:hidden;"></td></tr>
 			

@@ -77,8 +77,9 @@
     body, html{
         margin:0;
         padding:0;
-        background:#ffFFFF;
+        background-color: black;
 		height: 100%;
+		
     }
 
     .form-all{
@@ -86,7 +87,7 @@
         padding-top:0px;
         width:100%;
 		height: 100%;
-        background: #ffffff;
+        background: black;
         color:#555 !important;
         font-family:'Lucida Grande',' Lucida Sans Unicode',' Lucida Sans',' Verdana',' Tahoma',' sans-serif';
         font-size:14px;
