@@ -126,7 +126,7 @@
 	
 	<ul class="form-section">
      
-      <p align="right"><font size="2" face="arial">Campinas-SP,
+      <p align="right"><font size="2" font color="#fff" face="arial">Campinas-SP,
 <script language="JavaScript"> <!--
 var agora = new Date();
 var hora = agora.getHours()
