@@ -111,7 +111,7 @@
 		<td><font color='#000000' size="5" face="verdana">Batalhão Cidade de Campinas </font><hr width="100%" align="left"></td>
 		</tr>
 		<tr>
-		<td><font color="#EEE9E9" size="4" face="verdana">Controle do Material Classe VI e IX</font>
+		<td><font color="#EEE9E9" size="4" face="verdana">Controle do Material Classe IX</font>
 		</td>
 		</tr>
 	</tbody></table>
@@ -167,23 +167,22 @@ document.write("<FONT COLOR='#000000' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+
 			<tr><td><font color='#000000' face="verdana" size=2>Emprego:</font></td><td><select name="emprego" >
 			<option value="">Selecionar Origem</option>
 			<option value="1">Adm</option>
-			<option value="2">Op</option>		
+			<option value="2">Op</option>	
 			</font></select></td></tr>
 
 			<tr><td><font color='#000000' face="verdana" size=2>Classe:</font></td><td><select name="classe" >
 			<option value="">Selecionar Classe</option>
-			<option value="Cl VI">Cl VI</option>
+			<!--<option value="Cl VI">Cl VI</option>-->
 			<option value="Cl IX">Cl IX</option>
 			</font></select></td></tr>
-			
 			<tr><td><font color='#000000' face="verdana" size=2>Tipo:</font></td><td><select name="tipo" >
 			<option value="">Selecionar Tipo</option>
-			<option value="Bote">Bote</option>
+			<!--<option value="Bote">Bote</option>
 			<option value="DAE">DAE</option>
 			<option value="Equipamento">Equipamento</option>
 			<option value="ETA">ETA</option>
 			<option value="Gerador">Gerador</option>
-			<option value="Motor de Popa">Motor de Popa</option>
+			<option value="Motor de Popa">Motor de Popa</option>-->
 			<option value="Viatura">Viatura</option>
 			</font></select></td></tr>
 			

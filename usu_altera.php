@@ -37,7 +37,7 @@
 <link rel="alternate" type="" href="" title=""><link rel="" type="" href="" title="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="HandheldFriendly" content="true">
-<title>2° BE Cmb</title>
+<title>2° B Log L</title>
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
@@ -79,14 +79,14 @@
     body, html{
         margin:0;
         padding:0;
-        background:#ffFFFF;
+        background:#000;
     }
 
     .form-all{
         margin:0px auto;
         padding-top:0px;
         width:800px;
-        background: #ffffff;
+        background: #000;
         color:#555 !important;
         font-family:'Lucida Grande',' Lucida Sans Unicode',' Lucida Sans',' Verdana',' Tahoma',' sans-serif';
         font-size:14px;
@@ -134,17 +134,17 @@ $a1 = $_GET['id_usu'];
   <div class="form-all">
     <table align="center" border="0" width="100%" class="backcolor1">
 		<tbody><tr>
-		<td rowspan="2" width="10%" align="center" height="80"><img src="./imagens/2becmb.png" width="60" height="75"></td>
-		<td colspan="2"><font color='#000000' size="5" face="verdana">Batalhão Borba Gato </font><hr width="100%" align="left"></td>
+		<td rowspan="2" width="10%" align="center" height="80"><img src="./imagens/2blogl-logo.png" width="60" height="75"></td>
+		<td colspan="2"><font color='#000000' size="5" face="verdana">2º Batalhão Logístico Leve</font><hr width="100%" align="left"></td>
 		</tr>
 		<tr>
-		<td><font color="#EEE9E9" size="4" face="verdana">Controle do Material Classe VI e IX</font></td>
+		<td><font color="#EEE9E9" size="4" face="verdana">Controle do Material Classe IX</font></td>
 		<td>
 			<p align="right">
 		
-		<a href="/2becmb_desmob_haiti/index2.php" title="Página Inicial" > <img src="./imagens/home.png" width="40" height="40"></a> &nbsp&nbsp&nbsp
+		<a href="index2.php" title="Página Inicial" > <img src="./imagens/home.png" width="40" height="40"></a> &nbsp&nbsp&nbsp
 		
-		<a href="/2becmb_desmob_haiti/session_destroy.php" title="Sair do sistema" > <img src="./imagens/sair.png" width="40" height="40"></a> &nbsp&nbsp&nbsp
+		<a href="session_destroy.php" title="Sair do sistema" > <img src="./imagens/sair.png" width="40" height="40"></a> &nbsp&nbsp&nbsp
 			</p>
 		</td>
 		</tr>
