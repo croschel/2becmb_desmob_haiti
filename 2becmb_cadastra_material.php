@@ -184,6 +184,8 @@ document.write("<FONT COLOR='#fff' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+"</
 			<option value="Gerador">Gerador</option>
 			<option value="Motor de Popa">Motor de Popa</option>-->
 			<option value="Viatura">Viatura</option>
+			<option value="Equipamento">Equipamento</option>
+			<option value="Reboque">Reboque</option>
 			</font></select></td></tr>
 			
 			<tr><td><font color='#000000' face="verdana" size=2>Material:</font></td><td><input name="material" type="varchar" id="material" width="12" maxlength="30"/></td></tr>
