@@ -176,7 +176,7 @@ document.write("<FONT COLOR='#fff' FACE=Arial SIZE=2>"+DiaHoje+" - "+DiaHora+"</
 			<legend><font color='#000000' face="verdana" size=2><img src="imagens/cadastro_usuarios_faixa.png" width="100%" height="40" border="0"></font></legend>
 
 			<table align="center" cellpadding="4">
-			<tr><td><font color='#000000' face="verdana" size=2>Usuário (CPF):</font></td><td><input name="usuario" type="text" id="usuario"/></td></tr>
+			<tr><td><font color='#000000' face="verdana" size=2>Usuário (Reg Mil):</font></td><td><input name="usuario" type="text" id="usuario"/></td></tr>
 			<tr><td><font color='#000000' face="verdana" size=2>Nome Completo:</font></td><td><input name="nome" type="text" id="nome"/></td></tr>
 			<tr><td><font color='#000000' face="verdana" size=2>Nome Guerra:</font></td><td><input name="nome_guerra" type="text" id="nome_guerra"/></td></tr>
 			<tr><td><font color='#000000' face="verdana" size=2>Posto/Graduação:</font></td><td>

@@ -197,12 +197,10 @@ $a1 = $_GET['id_usu'];
 			
 			<tr><td><font color='#000000' face="verdana" size=2><b>SU: </b></font></td><td><select name='su'><?php
 			echo "<option value='$su'>".$su."</option>";
-			echo "<option value='Cmdo'>Cmdo</option>";
 			echo "<option value='EM'>EM</option>";
-			echo "<option value='B Adm'>B Adm</option>";
 			echo "<option value='Cia C Ap'>Cia C Ap</option>";
-			echo "<option value='Cia E Pnt'>Cia E Pnt</option>";
-			echo "<option value='Cia E Cmb'>Cia E Cmb</option>";
+			echo "<option value='Cia Log Sup'>Cia Log Sup</option>";
+			echo "<option value='Cia Log Mnt'>Cia Log Mnt</option>";
 			?>
 			</select></td></tr>
 			
