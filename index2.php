@@ -120,7 +120,7 @@ header('Content-Type: text/html; charset=UTF-8');
 		<td colspan="2"><font color='#000000' size="5" face="arial">Batalhão Cidade de Campinas</font><hr width="100%" align="left"></td>
 		</tr>
 		<tr>
-		<td><font color="#EEE9E9" size="4" face="arial">Controle Mat Cl VI e IX</font>&nbsp </td>
+		<td><font color="#EEE9E9" size="4" face="arial">Controle do Material Classe IX</font>&nbsp </td>
 		<td>
 		<p align="right">		
 			
