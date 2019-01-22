@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
- <link rel="shortcut icon" href="http://localhost/imagens/fav.png">
+ <link rel="shortcut icon" href="http://10.12.125.10/imagens/fav.png">
  <TITLE>Cadastro de usuários</TITLE>
 </HEAD>
 
@@ -221,7 +221,7 @@ else{
 				$eqp_opera = '';
 				
 				 $info = htmlspecialchars($info);
-	//$link = mysqli_connect("localhost","root","","2becmb");
+	//$link = mysqli_connect("10.12.125.10","root","","2becmb");
     $sql = "INSERT INTO usu (id_usu, posto_grad, posto_grad_ord, nome, nome_guerra, email, usuario, tel_movel, senha, om, su, funcao, nivel, nivel_2becmb, nivel_adm, cnh, cnh_val, especial, coletivo, mot_militar, operador, qm, eqp_opera) 
 	VALUES(NULL, '{$posto_grad}', '{$posto_grad_ord}', '{$nome}', '{$nome_guerra}', '{$email}', '{$usuario}', '{$tel_movel}', '{$senha}', '{$om}', '{$su}', '{$funcao}', '{$nivel}', '{$nivel_2becmb}', '{$nivel_adm}', '{$cnh}', '{$cnh_val}', '{$especial}', '{$coletivo}', '{$mot_militar}', '{$operador}', '{$qm}', '{$eqp_opera}')";
 	mysqli_query ($link, $sql);
