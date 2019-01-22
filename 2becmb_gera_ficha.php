@@ -32,6 +32,7 @@
 <title>2° B Log L</title>
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
+<link rel="shortcut icon" href="http://localhost/imagens/fav.png">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
 
  

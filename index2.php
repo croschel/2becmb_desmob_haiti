@@ -36,6 +36,7 @@
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
+<link rel="shortcut icon" href="http://localhost/imagens/fav.png">
 <style type="text/css">
  .backcolor1 {
  /* Firefox 3.6+ */
