@@ -326,7 +326,7 @@ $a1 = $_GET['id_ficha'];
 			
 			<tr><td align="center" colspan="2"><font color='#000000' face="verdana" size=2><hr></td></tr>
 			
-			<tr><td align="center "colspan="2"><font color='#000000' face="verdana" size=2><b>Preenchido pelo Cmt Gda 2º BECmb/ Permanencia Pel Eqp<b></font></td></tr>
+			<tr><td align="center "colspan="2"><font color='#000000' face="verdana" size=2><b>Preenchido pelo Cmt Gda do 2º B Log L<b></font></td></tr>
 			
 			<tr><td align="center" colspan="2"><font color='#000000' face="verdana" size=2><hr></td></tr>
 			

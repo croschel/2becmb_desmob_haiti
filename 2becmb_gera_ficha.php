@@ -93,7 +93,11 @@ $id_ficha = $_GET['id_ficha'];
 		$dif_data  = $saida_data_hora1->diff($chegada_data_hora1);
 		
 		//Diferenca entre odometros
-		$dif_odo = $chegada_odo - $saida_odo;
+		if($chegada_odo == "" || $saida_odo == ""){
+			$dif_odo = "";
+		}else{
+			$dif_odo = $chegada_odo - $saida_odo;
+		}
 		
 		
 	$sql1 = "SELECT * FROM 2becmb_material WHERE id LIKE '$id_mat'";
@@ -148,7 +152,7 @@ $id_ficha = $_GET['id_ficha'];
 			
 			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>OM:</b> 2º Batalhão de Engenharia de Combate</font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>OM:</b> 2º Batalhão Logistico Leve</font></td></tr>
 			
 			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Motorista:</b><?php echo ' '.$posto_grad.' '.$nome_guerra;?></font></td></tr>
 			
@@ -190,7 +194,7 @@ $id_ficha = $_GET['id_ficha'];
 			
 			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td><td align="center" rowspan="4" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><br>______________<br>Ch 4ª Seção<br></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>OM: </b>2º BECmb </font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>OM: </b>2º B Log L </font></td></tr>
 			
 			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Viatura:</b><?php echo ' '.$marca.' '.$modelo;?><b>&nbsp&nbsp&nbsp&nbsp Placa/Prefixo/EB:</b><?php echo ' '.$ppeb;?></font></td></tr>
 			

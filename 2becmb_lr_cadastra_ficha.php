@@ -233,7 +233,7 @@ $id_mat = $_GET['id_mat'];
 			</select></font></td></tr>
 			
 			<tr><td width="60" ><font size=2 color="#000000" face="arial">Ch Vtr</td><td><select name='ch_vtr'><?php
-			$ch_vtrs = "SELECT * FROM usu WHERE om LIKE '%E Cmb%' ORDER by posto_grad_ord DESC";
+			$ch_vtrs = "SELECT * FROM usu WHERE om LIKE '%B Log%' ORDER by posto_grad_ord DESC";
 			$sql = mysqli_query($link, $ch_vtrs);
 			echo "<option value=''>Listar</option>";
 			while ($resultado2 = mysqli_fetch_array($sql)) {
