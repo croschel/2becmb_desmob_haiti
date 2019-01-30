@@ -147,64 +147,64 @@ $id_ficha = $_GET['id_ficha'];
 
 			<table align="center" cellspacing="0" cellpadding="3" style="border-collapse: collapse; border:solid;" >
 
-			<tr><td align="left" style="border-collapse: collapse; border:solid; border-right:hidden; border-bottom:hidden" border="1"><img src="<?php echo './imagens/eb.png';?>" width="40" height="70"><font color='#ffffff' face="arial" size=2></font></td><td align="center" colspan="2"><font color='#000000' face="arial" size=3><b>MINISTÉRIO DA DEFESA<BR>EXÉRCITO BRASILEIRO</b></font><BR><font color='#000000' face="arial" size=2>FICHA DE SERVIÇO DE <?php echo $x;?></font><BR><BR></td><td></td></tr>
+			<tr><td align="left" style="border-collapse: collapse; border:solid; border-right:hidden; border-bottom:hidden" border="1"><img src="<?php echo './imagens/eb.png';?>" width="40" height="70"><font color='#ffffff' face="arial" size=2></font></td><td align="center" colspan="2"><font color='#FFFFFF' face="arial" size=3><b>MINISTÉRIO DA DEFESA<BR>EXÉRCITO BRASILEIRO</b></font><BR><font color='#FFFFFF' face="arial" size=2>FICHA DE SERVIÇO DE <?php echo $x;?></font><BR><BR></td><td></td></tr>
 			
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>OM:</b> 2º Batalhão Logistico Leve</font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>OM:</b> 2º Batalhão Logistico Leve</font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Motorista:</b><?php echo ' '.$posto_grad.' '.$nome_guerra;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Motorista:</b><?php echo ' '.$posto_grad.' '.$nome_guerra;?></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Viatura:</b><?php echo ' '.$marca.' '.$modelo;?><b>&nbsp&nbsp Placa/Prefixo/EB:</b><?php echo ' '.$ppeb;?></font></td><td align="right" colspan="1"><font color='#000000' face="arial" size=2><b>Data:</b><?php echo ' '.$data;?></font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>Viatura:</b><?php echo ' '.$marca.' '.$modelo;?><b>&nbsp&nbsp Placa/Prefixo/EB:</b><?php echo ' '.$ppeb;?></font></td><td align="right" colspan="1"><font color='#FFFFFF' face="arial" size=2><b>Data:</b><?php echo ' '.$data;?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Apresentar-se a:</b><?php echo ' '.$posto_grad1.' '.$nome_guerra1;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Apresentar-se a:</b><?php echo ' '.$posto_grad1.' '.$nome_guerra1;?></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Local:</b><?php echo ' '.$local_apresenta;?></font></td><td align="right" colspan="1"><font color='#000000' face="arial" size=2><b>Hora:</b><?php echo ' '.$hora;?></font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>Local:</b><?php echo ' '.$local_apresenta;?></font></td><td align="right" colspan="1"><font color='#FFFFFF' face="arial" size=2><b>Hora:</b><?php echo ' '.$hora;?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Por ordem de:</b><?php echo ' '.$ordenou;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Por ordem de:</b><?php echo ' '.$ordenou;?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Natureza do Serviço:</b><?php echo ' '.$missao.'('.$destino.')';?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Natureza do Serviço:</b><?php echo ' '.$missao.'('.$destino.')';?></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Itinerário:</b><?php echo ' '.$itinerario;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Itinerário:</b><?php echo ' '.$itinerario;?></font></td></tr>
 			
-			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#000000' face="arial" size=2><br><br>__________________________<br>Cmt <?php echo ' SU';?></font><font face="arial" size=1><br></font></td></tr>
+			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#FFFFFF' face="arial" size=2><br><br>__________________________<br>Cmt <?php echo ' SU';?></font><font face="arial" size=1><br></font></td></tr>
 			
-			<tr><td align="CENTER" colspan="4"><font color='#000000' face="arial" size=1><br><b>A VIATURA ESTÁ EM CONDIÇÕES DE SER UTILIZADA NO SERVIÇO E ITINERÁRIOS RELACIONADOS ACIMA</b></font></td></tr>
+			<tr><td align="CENTER" colspan="4"><font color='#FFFFFF' face="arial" size=1><br><b>A VIATURA ESTÁ EM CONDIÇÕES DE SER UTILIZADA NO SERVIÇO E ITINERÁRIOS RELACIONADOS ACIMA</b></font></td></tr>
 			
-			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#000000' face="arial" size=2><br>__________________________<br>Encarregado da manutenção<br></font></td></tr>
+			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#FFFFFF' face="arial" size=2><br>__________________________<br>Encarregado da manutenção<br></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><br>Liberei o veículo às<?php echo '_______h e _______min do dia _______/_______/____________ <br><br>com o seguinte odômetro: ______________Km</b>';?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><br>Liberei o veículo às<?php echo '_______h e _______min do dia _______/_______/____________ <br><br>com o seguinte odômetro: ______________Km</b>';?></font></td></tr>
 			
-			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#000000' face="arial" size=2><br>__________________________<br><?php echo $posto_grad1.' '.$nome_guerra1;?><br></font></td></tr>
+			<tr><td align="center" colspan="4" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#FFFFFF' face="arial" size=2><br>__________________________<br><?php echo $posto_grad1.' '.$nome_guerra1;?><br></font></td></tr>
 			
-			<tr><td align="CENTER" colspan="4"><font color='#000000' face="arial" size=3><b>MOTORISTA: EXECUTE AS MANUTENÇÕES PREVISTAS NO VERSO!</b><br><br><br></font></td></tr>
+			<tr><td align="CENTER" colspan="4"><font color='#FFFFFF' face="arial" size=3><b>MOTORISTA: EXECUTE AS MANUTENÇÕES PREVISTAS NO VERSO!</b><br><br><br></font></td></tr>
 			
-			<tr><td align="center" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#000000' face="arial" size=2>Dados para o Livro<br>Registro da Viatura</font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2></font><font color='#000000' face="arial" size=2><b>...DATA HORA.. </b></font></td><td align="left"  style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2>.....</font><font color='#000000' face="arial" size=2><b>ODÔMETRO</b></font><font color='#ffffff' face="arial" size=2></font></td><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2>.....</font><font color='#000000' face="arial" size=2><b>COMBUSTÍVEL</b></font></td></tr>
+			<tr><td align="center" style="border-collapse: collapse; border:solid; border-top:hidden;" border="1"><font color='#FFFFFF' face="arial" size=2>Dados para o Livro<br>Registro da Viatura</font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2></font><font color='#FFFFFF' face="arial" size=2><b>...DATA HORA.. </b></font></td><td align="left"  style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2>.....</font><font color='#FFFFFF' face="arial" size=2><b>ODÔMETRO</b></font><font color='#ffffff' face="arial" size=2></font></td><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#ffffff' face="arial" size=2>.....</font><font color='#FFFFFF' face="arial" size=2><b>COMBUSTÍVEL</b></font></td></tr>
 			
-			<tr><td align="left"  style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><b>REGRESSO</b></font><font color='#000000' face="arial" size=2>...........</font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php if ($chegada_odo > 0){echo $chegada_data_hora;}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php echo $chegada_odo;?></font></td><td rowspan="3" align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><b></b></font></td></tr>
+			<tr><td align="left"  style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><b>REGRESSO</b></font><font color='#FFFFFF' face="arial" size=2>...........</font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php if ($chegada_odo > 0){echo $chegada_data_hora;}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php echo $chegada_odo;?></font></td><td rowspan="3" align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><b></b></font></td></tr>
 			
-			<tr><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><b>SAÍDA</b></font></td><td align="center"  style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php if ($saida_data_hora == '0001-01-01 00:00:00'){echo '';}else {echo $saida_data_hora;}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php echo $saida_odo;?></font></td></tr>
+			<tr><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><b>SAÍDA</b></font></td><td align="center"  style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php if ($saida_data_hora == '0001-01-01 00:00:00'){echo '';}else {echo $saida_data_hora;}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php echo $saida_odo;?></font></td></tr>
 			
-			<tr><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><b>DIFERENÇA</b></font></td><td align="center"  style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php if ($chegada_odo > 0){echo $dif_data->format("%H:%I:%S");}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><?php if ($chegada_odo > 0){echo $dif_odo;}?></font></td></tr>
+			<tr><td align="left" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><b>DIFERENÇA</b></font></td><td align="center"  style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php if ($chegada_odo > 0){echo $dif_data->format("%H:%I:%S");}?></font></td><td align="center" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><?php if ($chegada_odo > 0){echo $dif_odo;}?></font></td></tr>
 			
-			<tr><td align="CENTER" colspan="4"><font color='#000000' face="arial" size=2><br><br><br><b>APÓS TRABALHO, ESTA FICHA DEVE SER ENTREGUE AO ENCARREGADO DE MANUTENÇÃO.</b></font></td></tr>
+			<tr><td align="CENTER" colspan="4"><font color='#FFFFFF' face="arial" size=2><br><br><br><b>APÓS TRABALHO, ESTA FICHA DEVE SER ENTREGUE AO ENCARREGADO DE MANUTENÇÃO.</b></font></td></tr>
 			
-			<tr><td align="left"  colspan="4" style="border-collapse: collapse; border:solid; border-left:hidden; border-right:hidden;" border="1"><font color='#000000' face="arial" size=1><br>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br></font></td></tr>
+			<tr><td align="left"  colspan="4" style="border-collapse: collapse; border:solid; border-left:hidden; border-right:hidden;" border="1"><font color='#FFFFFF' face="arial" size=1><br>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td><td align="center" rowspan="4" style="border-collapse: collapse; border:solid;" border="1"><font color='#000000' face="arial" size=2><br>______________<br>Ch 4ª Seção<br></font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>Nº:</b> <?php echo $id_ficha;?></font></td><td align="center" rowspan="4" style="border-collapse: collapse; border:solid;" border="1"><font color='#FFFFFF' face="arial" size=2><br>______________<br>Ch 4ª Seção<br></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>OM: </b>2º B Log L </font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>OM: </b>2º B Log L </font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Viatura:</b><?php echo ' '.$marca.' '.$modelo;?><b>&nbsp&nbsp&nbsp&nbsp Placa/Prefixo/EB:</b><?php echo ' '.$ppeb;?></font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>Viatura:</b><?php echo ' '.$marca.' '.$modelo;?><b>&nbsp&nbsp&nbsp&nbsp Placa/Prefixo/EB:</b><?php echo ' '.$ppeb;?></font></td></tr>
 			
-			<tr><td align="left" colspan="3"><font color='#000000' face="arial" size=2><b>Data:</b> <?php echo '_____________';?><b>Hora Saída:</b> <?php echo '________';?><b>Odômetro:__________</b><br><br></font></td></tr>
+			<tr><td align="left" colspan="3"><font color='#FFFFFF' face="arial" size=2><b>Data:</b> <?php echo '_____________';?><b>Hora Saída:</b> <?php echo '________';?><b>Odômetro:__________</b><br><br></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Data:</b> <?php echo '_____________';?><b>Hora Chegada:</b> <?php echo '________';?><b>Odômetro:__________</b></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Data:</b> <?php echo '_____________';?><b>Hora Chegada:</b> <?php echo '________';?><b>Odômetro:__________</b></font></td></tr>
 			
-			<tr><td align="left" colspan="4"><font color='#000000' face="arial" size=2><b>Motorista:</b><?php echo ' '.$posto_grad.' '.$nome_guerra;?></font></td></tr>
+			<tr><td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2><b>Motorista:</b><?php echo ' '.$posto_grad.' '.$nome_guerra;?></font></td></tr>
 			
-			<tr><td align="CENTER" colspan="4"><font color='#000000' face="arial" size=2><br><b>ESTE TALÃO DEVE SER CONFERIDO PELO COMANDANTE DA<BR>GUARDA E ENCAMINHADO À FISCALIZAÇÃO ADMINISTRATIVA </b></font></td></tr>
+			<tr><td align="CENTER" colspan="4"><font color='#FFFFFF' face="arial" size=2><br><b>ESTE TALÃO DEVE SER CONFERIDO PELO COMANDANTE DA<BR>GUARDA E ENCAMINHADO À FISCALIZAÇÃO ADMINISTRATIVA </b></font></td></tr>
 			
 			</table>
 			
@@ -212,9 +212,9 @@ $id_ficha = $_GET['id_ficha'];
 			
 			<table align="center" cellspacing="0" cellpadding="1" style="border-collapse: collapse; border:solid;" >
 
-			<tr><td align="center" style="border-collapse: collapse;" border="1"><img src="<?php echo './imagens/eb.png';?>" width="40" height="70"><font color='#ffffff' face="arial" size=2></font></td><td align="center" colspan="5"><font color='#000000' face="arial" size=2><b>MANUTENÇÃO PREVENTIVA DE 1º ESCALÃO</b></font></td></tr>
+			<tr><td align="center" style="border-collapse: collapse;" border="1"><img src="<?php echo './imagens/eb.png';?>" width="40" height="70"><font color='#ffffff' face="arial" size=2></font></td><td align="center" colspan="5"><font color='#FFFFFF' face="arial" size=2><b>MANUTENÇÃO PREVENTIVA DE 1º ESCALÃO</b></font></td></tr>
 			
-			<tr><td align="center" colspan="1"><font color='#000000' face="arial" size=2></font></td><td align="left" colspan="1"><font color='#000000' face="arial" size=2>A - Antes da Partida<br>P - Nos altos e pós-operação<br>+ - Comunicar as alterações encontradas</font></td>	<td align="left" colspan="4"><font color='#000000' face="arial" size=2>D - Durante o movimento<br>H/Q - Após determinado número de<br>&nbsp&nbsp horas de trabalho / Quinzenalmente.</font><BR></td></tr>
+			<tr><td align="center" colspan="1"><font color='#FFFFFF' face="arial" size=2></font></td><td align="left" colspan="1"><font color='#FFFFFF' face="arial" size=2>A - Antes da Partida<br>P - Nos altos e pós-operação<br>+ - Comunicar as alterações encontradas</font></td>	<td align="left" colspan="4"><font color='#FFFFFF' face="arial" size=2>D - Durante o movimento<br>H/Q - Após determinado número de<br>&nbsp&nbsp horas de trabalho / Quinzenalmente.</font><BR></td></tr>
 			
 			<tr><td align="center" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b>Nº</b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b>Item.........................................................................................................</b></font></td>							<td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b>.....A.........</b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;" border="1"><font face="arial" size=1><b>.....D.........</b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;" border="1"><font face="arial" size=1><b>.....P.........</b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;" border="1"><font face="arial" size=1><b>.....H/Q.....</b></font></td></tr>
 			
@@ -290,17 +290,17 @@ $id_ficha = $_GET['id_ficha'];
 			
 			<tr><td align="center" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b>36</b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b>Carroceria</b></font></td>					<td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b></b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b></b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b></b></font></td><td align="left" style="border-collapse: collapse; border:1px solid;"><font face="arial" size=1><b></b></font></td></tr>
 			
-			<tr><td align="left" colspan="6"><font color='#000000' face="arial" size=2><BR>&nbsp&nbsp&nbsp&nbsp<b>IRREGULARIDADES OU ACIDENTES:</b>_______________________________________________<BR><BR>&nbsp&nbsp&nbsp&nbsp_______________________________________________________________________________<BR><BR>&nbsp&nbsp&nbsp&nbsp_______________________________________________________________________________<BR><BR></font></td></tr>
+			<tr><td align="left" colspan="6"><font color='#FFFFFF' face="arial" size=2><BR>&nbsp&nbsp&nbsp&nbsp<b>IRREGULARIDADES OU ACIDENTES:</b>_______________________________________________<BR><BR>&nbsp&nbsp&nbsp&nbsp_______________________________________________________________________________<BR><BR>&nbsp&nbsp&nbsp&nbsp_______________________________________________________________________________<BR><BR></font></td></tr>
 			
-			<tr><td align="left"><font color='#000000' face="arial" size=2><b></b></font></td><td align="center" colspan="4"><font color='#000000' face="arial" size=2>__________________________<br><?php echo ' '.$posto_grad.' '.$nome_guerra;?><br></font></td><td align="left"><font color='#000000' face="arial" size=2><b></b></font></td></tr>
+			<tr><td align="left"><font color='#FFFFFF' face="arial" size=2><b></b></font></td><td align="center" colspan="4"><font color='#FFFFFF' face="arial" size=2>__________________________<br><?php echo ' '.$posto_grad.' '.$nome_guerra;?><br></font></td><td align="left"><font color='#FFFFFF' face="arial" size=2><b></b></font></td></tr>
 			
-			<tr><td align="left"  colspan="6" style="border-collapse: collapse; border:solid; border-left:hidden; border-right:hidden;" border="1"><font color='#000000' face="arial" size=1><br>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br></font></td></tr>
+			<tr><td align="left"  colspan="6" style="border-collapse: collapse; border:solid; border-left:hidden; border-right:hidden;" border="1"><font color='#FFFFFF' face="arial" size=1><br>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br><br></font></td></tr>
 			
-			<tr><td align="left" colspan="6"><font color='#000000' face="arial" size=2><BR><b>Tomei conhecimento das irregularidades encontradas e providenciarei à respeito das mesmas.</b><BR><BR><BR><BR><BR><BR></font></td></tr>
+			<tr><td align="left" colspan="6"><font color='#FFFFFF' face="arial" size=2><BR><b>Tomei conhecimento das irregularidades encontradas e providenciarei à respeito das mesmas.</b><BR><BR><BR><BR><BR><BR></font></td></tr>
 			
-			<tr><td align="right" colspan="6"><font color='#000000' face="arial" size=2>Campinas-SP, ______ de _____________________ de _____________<BR><BR></font><font color='#000000' face="arial" size=1><BR></font></td></tr>
+			<tr><td align="right" colspan="6"><font color='#FFFFFF' face="arial" size=2>Campinas-SP, ______ de _____________________ de _____________<BR><BR></font><font color='#FFFFFF' face="arial" size=1><BR></font></td></tr>
 			
-			<tr><td align="right" colspan="5" style="border-collapse: collapse; border:solid; border-top:hidden; border-right:hidden;" border="1"><font color='#000000' face="arial" size=2><br>________________________<br>Encarregado da manutenção<br></font></td><td align="right" colspan="1" style="border-collapse: collapse; border:solid; border-top:hidden; border-left:hidden;"></td></tr>
+			<tr><td align="right" colspan="5" style="border-collapse: collapse; border:solid; border-top:hidden; border-right:hidden;" border="1"><font color='#FFFFFF' face="arial" size=2><br>________________________<br>Encarregado da manutenção<br></font></td><td align="right" colspan="1" style="border-collapse: collapse; border:solid; border-top:hidden; border-left:hidden;"></td></tr>
 			
 			</table>
 			
