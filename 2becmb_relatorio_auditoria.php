@@ -30,7 +30,7 @@
 <meta name="HandheldFriendly" content="true">
 <title>2° B Log L</title>
 <link href="./index1_files/formCss.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="http://10.12.125.45/imagens/fav.png">
+<link rel="icon" href="http://10.12.125.45/imagens/fav.png">
 <link type="text/css" rel="stylesheet" href="./index1_files/nova.css">
 <link type="text/css" media="print" rel="stylesheet" href="./index1_files/printForm.css">
 <style type="text/css">

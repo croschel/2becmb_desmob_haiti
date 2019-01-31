@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
- <link rel="shortcut icon" href="http://10.12.125.45/imagens/fav.png">
+ <link rel="icon" href="http://10.12.125.45/imagens/fav.png">
  <TITLE>Cadastro de usuários</TITLE>
 </HEAD>
 
